@@ -30,3 +30,16 @@ cartItems.unshift("Wig")
 cartItems.shift
 
 console.log("Updated Cart Items:", cartItems);
+
+
+//Task 4-
+
+// Declares array for prices
+let prices = ["100", "200", "300"];
+
+
+// 10% discount is applied to price
+let discountedPrices = prices.map(price => price * 0.9);
+
+console.log("Original Prices: ", prices);
+console.log("Discounted Prices: ", discountedPrices);
