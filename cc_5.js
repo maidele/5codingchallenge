@@ -21,17 +21,12 @@ let orders = {
 
 let cartItems = ["Dress", "Sneakers", "Airpods"];
 
-
 cartItems.push("Skateboard");
-
 
 cartItems.pop();
 
-
 cartItems.unshift("Wig")
 
-
 cartItems.shift
-
 
 console.log("Updated Cart Items:", cartItems);
