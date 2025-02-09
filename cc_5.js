@@ -43,3 +43,10 @@ let discountedPrices = prices.map(price => price * 0.9);
 
 console.log("Original Prices: ", prices);
 console.log("Discounted Prices: ", discountedPrices);
+
+//Task 5-Filter Method
+
+// Declares an array with prices
+let inventory = ["5", "0", "12", "8", "0"];
+inventory = prices.filter(price => price= "0");
+console.log(inventory); // [400]
