@@ -50,3 +50,9 @@ console.log("Discounted Prices: ", discountedPrices);
 let inventory = ["5", "0", "12", "8", "0"];
 inventory = prices.filter(price => price= "0");
 console.log(inventory); // [400]
+
+//Task 6- Reduce Method
+
+let sales = [500, 300, 200, 400]
+sales = sales.reduce((total, sale) => total + sale, 0);
+console.log(sales); //
