@@ -17,7 +17,6 @@ let orders = {
 
 
 //Task 3-
-
 let cartItems = ["Dress", "Sneakers", "Airpods"];
 
 cartItems.push("Skateboard");
