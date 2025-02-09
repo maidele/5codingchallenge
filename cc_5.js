@@ -62,9 +62,18 @@ console.log(sales); //
 let customers =  ["Alice", "Bob", "Charlie", "David"]
 
 
+
 //Task 8-
 function calculateTax(amount, taxRate) {
     return amount * taxRate;
  }
  let tax = calculateTax(300, 0.10);
  console.log(`Calculated tax: $${tax}`);
+
+ 
+ //Task 9-
+const applyDiscount = function(price, discount) {
+    return price - (price * discount / 100);
+ };
+ let discountedPrice = applyDiscount(100, 10);
+ console.log(`Discounted price: $${discountedPrice}`);
