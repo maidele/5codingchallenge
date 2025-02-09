@@ -56,3 +56,7 @@ console.log(inventory); // [400]
 let sales = [500, 300, 200, 400]
 sales = sales.reduce((total, sale) => total + sale, 0);
 console.log(sales); //
+
+// Task 7- find () Method
+
+let customers =  ["Alice", "Bob", "Charlie", "David"]
