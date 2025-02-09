@@ -70,10 +70,16 @@ function calculateTax(amount, taxRate) {
  let tax = calculateTax(300, 0.10);
  console.log(`Calculated tax: $${tax}`);
 
- 
+
  //Task 9-
 const applyDiscount = function(price, discount) {
     return price - (price * discount / 100);
  };
  let discountedPrice = applyDiscount(100, 10);
  console.log(`Discounted price: $${discountedPrice}`);
+ 
+
+//Task 10 -
+const calculatePoints = purchaseAmount => purchaseAmount / 10;
+let points = calculatePoints(150);
+console.log(`Earned points: ${points}`);
