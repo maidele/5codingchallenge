@@ -18,7 +18,6 @@ let orders = {
 
 //Task 3-
 
-
 let cartItems = ["Dress", "Sneakers", "Airpods"];
 
 cartItems.push("Skateboard");
@@ -36,7 +35,6 @@ console.log("Updated Cart Items:", cartItems);
 
 // Declares array for prices
 let prices = ["100", "200", "300"];
-
 
 // 10% discount is applied to price
 let discountedPrices = prices.map(price => price * 0.9);
@@ -77,7 +75,7 @@ const applyDiscount = function(price, discount) {
  };
  let discountedPrice = applyDiscount(100, 10);
  console.log(`Discounted price: $${discountedPrice}`);
- 
+
 
 //Task 10 -
 const calculatePoints = purchaseAmount => purchaseAmount / 10;
