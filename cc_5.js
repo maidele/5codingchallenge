@@ -20,7 +20,7 @@ let orders = {
      totalAmount: 150, 
      status: "Processing" ,
      displayOrder: function () {
-        console.log (`Order ID: ${this.orderID}, Amount Total: $${this.totalAmount}, Status: $this.status}`);
+        console.log (`Order ID: ${'this.orderID}, Amount: $${this.totalAmount}, Status: $this.status}`);
      }// logging the details of the order
 
 
@@ -65,7 +65,9 @@ console.log(sales); //
 // Task 7- find () Method
 
 let customers =  ["Alice", "Bob", "Charlie", "David"]
+let customerLocated = customers.find(name => name =="Charlie");
 
+console.log ("Customer located:", customerLocated);
 
 
 //Task 8-
