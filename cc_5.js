@@ -1,11 +1,17 @@
 // Task 1-
 let customer = { 
-    name: "Nancy Franklin", 
-    age: "22", 
-    email: "nancyfranklin@gmail.com"
+    name: "Nancy Franklin", // name of customer
+    age: "22", //age of customer
+    email: "nancyfranklin@gmail.com" // email of customer
 };
 
-console.log("Customer Name:", customer);
+// logging the name of the customer
+console.log(`name: ${customer.name}`);// logging the name of the customer
+
+console.log(`age: ${customer.age}`);// logging the age of the customer
+
+console.log(`email: ${customer.email}`);// logging the email of the customer
+
 
 // Task 2-
 
