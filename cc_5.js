@@ -10,7 +10,7 @@ console.log(`name: ${customer.name}`);// logging the name of the customer
 
 console.log(`age: ${customer.age}`);// logging the age of the customer
 
-console.log(`email: ${customer.email}`);// logging the email of the customer
+console.log(`email: ${customer.email}`);// logging the age of the customer
 
 
 // Task 2-
@@ -18,10 +18,8 @@ console.log(`email: ${customer.email}`);// logging the email of the customer
 let orders = {
      orderId: 12345, 
      totalAmount: 150, 
-     status: "Processing" ,
-     displayOrder: function () {
-        console.log (`Order ID: ${'this.orderID}, Amount: $${this.totalAmount}, Status: $this.status}`);
-     }// logging the details of the order
+     status: "Processing" 
+};
 
 
 //Task 3-
@@ -36,6 +34,7 @@ cartItems.unshift("Wig")
 cartItems.shift
 
 console.log("Updated Cart Items:", cartItems);
+// entire log for shopping car
 
 
 //Task 4-
@@ -49,6 +48,8 @@ let discountedPrices = prices.map(price => price * 0.9);
 console.log("Original Prices: ", prices);
 console.log("Discounted Prices: ", discountedPrices);
 
+// entire log for price adjustment
+
 //Task 5-Filter Method
 
 // Declares an array with prices
@@ -56,18 +57,20 @@ let inventory = ["5", "0", "12", "8", "0"];
 inventory = prices.filter(price => price= "0");
 console.log(inventory); // [400]
 
+// log for product availability 
+
 //Task 6- Reduce Method
 
 let sales = [500, 300, 200, 400]
 sales = sales.reduce((total, sale) => total + sale, 0);
 console.log(sales); //
 
+// log for revenue calculation
+
 // Task 7- find () Method
 
 let customers =  ["Alice", "Bob", "Charlie", "David"]
-let customerLocated = customers.find(name => name =="Charlie");
 
-console.log ("Customer located:", customerLocated);
 
 
 //Task 8-
@@ -77,6 +80,7 @@ function calculateTax(amount, taxRate) {
  let tax = calculateTax(300, 0.10);
  console.log(`Calculated tax: $${tax}`);
 
+//tax calculation log 
 
  //Task 9-
 const applyDiscount = function(price, discount) {
@@ -85,8 +89,11 @@ const applyDiscount = function(price, discount) {
  let discountedPrice = applyDiscount(100, 10);
  console.log(`Discounted price: $${discountedPrice}`);
 
+// discount application log 
 
 //Task 10 -
 const calculatePoints = purchaseAmount => purchaseAmount / 10;
 let points = calculatePoints(150);
 console.log(`Earned points: ${points}`);
+
+//loyalty points log
