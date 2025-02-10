@@ -18,8 +18,10 @@ console.log(`email: ${customer.email}`);// logging the email of the customer
 let orders = {
      orderId: 12345, 
      totalAmount: 150, 
-     status: "Processing" 
-};
+     status: "Processing" ,
+     displayOrder: function () {
+        console.log (`Order ID: ${'this.orderID}, Amount: $${this.totalAmount}, Status: $this.status}`);
+     }// logging the details of the order
 
 
 //Task 3-
